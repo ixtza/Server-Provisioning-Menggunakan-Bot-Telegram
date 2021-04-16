@@ -4,6 +4,12 @@ Penugasan camin periode 2021
 
 ## Tabel Konten
 
+- [Peringatan](#peringatan)
+- [A. Pengantar](#a-Pengantar)
+- [B. Ansible](#b-ansible)
+- [C. Bot Telegram](#c-buat-telegram-bot)
+- [Referensi](#referensi)
+
 ## Peringatan
 
 - Modul dibuat berdasarkan tujuan non-praktis atau sebatas pengalaman.
@@ -195,7 +201,7 @@ Sesudah melakukan konfigurasi saatnya kita membuat script otomasi `playbook` gun
 sudo nano /etc/ansible/nginx_start.yml
 ```
 
-- kemudian bisa di _copas_ [script ini](#start-nginx) ke dalam `nginx_stop.yml`.
+- kemudian bisa di _copas_ `Start Nginx` [dibawah](#contoh-yml-playbook) ke dalam `nginx_stop.yml`.
 - **Ganti `localhost` menjadi (nama samaran server) yang sebelumnya sudah kita atur.** Jika lupa gunakan perintah.
 
 ```
