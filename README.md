@@ -43,5 +43,13 @@ pada bagian start nginx host yang digunakan adalah localhost dengan user root. s
 
 **Stop Nginx**
 ```
-
+- hosts: localhost
+  become_user: root
+  tasks:
+          - name: "stop nginx"
+            service:
+                    name: nginx
+                    state: stopped
+            become: true
 ```
+pada bagian stop nginx secara keseluruhan hampir sama dengan start nginx bedanya hanya di statenya. untuk start nginx statenya adalah started dan untuk stop statenya adalah stopped dimana fungsi dari state stopped adalah memberhentikan proses nginx.
