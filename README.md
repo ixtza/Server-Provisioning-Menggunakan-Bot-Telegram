@@ -183,7 +183,7 @@ pip3 install bottle requests
 
 ![image](https://user-images.githubusercontent.com/11045113/115055467-a82e5f00-9f0b-11eb-9091-d8c7c1c7f8ac.png)
 
-6. Gabungkan dengan API token yang sudah dibuat, lalu masukkan ke address bar browser favorit anda, lalu tekan <enter>
+6. Gabungkan dengan API token yang sudah dibuat, lalu masukkan ke address bar browser favorit anda, lalu tekan enter
 
 api. telegram. org/bot<api_token_anda>/setWebHook?url=https://<url_ngrok_anda.ngrok.io/
 
