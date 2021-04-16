@@ -2,7 +2,7 @@
 
 Penugasan camin periode 2021
 
-## Tabel Konten
+## List Konten
 
 - [Peringatan](#peringatan)
 - [A. Pengantar](#a-Pengantar)
