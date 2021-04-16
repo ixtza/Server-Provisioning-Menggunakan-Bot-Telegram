@@ -195,13 +195,13 @@ server2 | SUCCESS => {
 
 Sesudah melakukan konfigurasi saatnya kita membuat script otomasi `playbook` guna dijalankan oleh `Ansible`.
 
-- buat sebuah script dalam bentuk `json` atau `yml`. Modul ini membuat `playbook` dengan format `yml` dengan nama `nginx_stop.yml`.
+- buat sebuah script dalam bentuk `json` atau `yml`. Modul ini membuat `playbook` dengan format `yml` dengan nama `nginx_start.yml`.
 
 ```
 sudo nano /etc/ansible/nginx_start.yml
 ```
 
-- kemudian bisa di _copas_ `Start Nginx` [dibawah](#contoh-yml-playbook) ke dalam `nginx_stop.yml`.
+- kemudian bisa di _copas_ `Start Nginx` [dibawah](#contoh-yml-playbook) ke dalam `nginx_start.yml`.
 - **Ganti `localhost` menjadi (nama samaran server) yang sebelumnya sudah kita atur.** Jika lupa gunakan perintah.
 
 ```
