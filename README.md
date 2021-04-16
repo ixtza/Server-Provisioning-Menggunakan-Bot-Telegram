@@ -130,7 +130,7 @@ def main():
 fungsi main untuk mengambil semua data dari json, memasukkan message ke variabel query, dan menyiapkan data untuk dikirim balik
 
 ```python
-	if query == "tes":
+    if query == "tes":
         send_message(answer_data)
     elif query == "nginx start":
         os.system("cd ~/ansible && ansible-playbook -i inventory.yml nginx_start.yml")
@@ -187,7 +187,7 @@ pip3 install bottle requests
 
 api. telegram. org/bot<api_token_anda>/setWebHook?url=https://<url_ngrok_anda.ngrok.io/
 
-7. Jalankan script tersebut di terminal
+7. Jalankan script python tadi di terminal
 
 ```
 python3 bot.py
