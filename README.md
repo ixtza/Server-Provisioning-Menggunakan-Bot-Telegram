@@ -17,5 +17,13 @@ pada bagian start mysql digunakan hosts localhost dan user root. service yang di
 
 **Stop MySql**
 ```
-
+- hosts: localhost
+  become_user: root
+  tasks:
+          - name: "stop mysql"
+            service:
+                    name: mysql
+                    state: stopped
+            become: true
 ```
+pada bagian stop mysql secara keseluruhan hampir sama dengan start mysql bedanya hanya di statenya. untuk start mysql statenya adalah started dan untuk stop statenya adalah stopped dimana fungsi dari state stopped adalah memberhentikan proses mysql.
