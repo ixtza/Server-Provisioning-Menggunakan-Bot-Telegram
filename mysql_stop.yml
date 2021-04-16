@@ -1,0 +1,8 @@
+- hosts: localhost
+  become_user: root
+  tasks:
+          - name: "stop mysql"
+            service:
+                    name: mysql
+                    state: stopped
+            become: true
