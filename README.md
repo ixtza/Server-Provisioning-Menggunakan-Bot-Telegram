@@ -54,10 +54,6 @@ pada bagian start nginx host yang digunakan adalah localhost dengan user root. s
 ```
 pada bagian stop nginx secara keseluruhan hampir sama dengan start nginx bedanya hanya di statenya. untuk start nginx statenya adalah started dan untuk stop statenya adalah stopped dimana fungsi dari state stopped adalah memberhentikan proses nginx.
 
-# Server-Provisioning-Menggunakan-Bot-Telegram
-
-Penugasan camin periode 2021
-
 # Buat telegram bot
 
 Tambahkan akun botfather, lalu masukkan perintah /newbot lalu masukkan data-data yang diminta
