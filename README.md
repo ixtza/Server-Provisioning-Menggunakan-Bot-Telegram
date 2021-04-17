@@ -416,7 +416,7 @@ pip3 install bottle requests
 6. Gabungkan dengan API token yang sudah dibuat, lalu masukkan ke address bar browser favorit anda, lalu tekan enter
 
 ```
-api. telegram. org/bot<api_token_anda>/setWebHook?url=https://<url_ngrok_anda.ngrok.io/
+api.telegram.org/bot<api_token_anda>/setWebHook?url=https://<url_ngrok_anda>.ngrok.io/
 ```
 
 7. Jalankan script python tadi di terminal
